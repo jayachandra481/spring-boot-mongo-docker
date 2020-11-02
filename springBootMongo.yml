@@ -1,6 +1,6 @@
 # Config Map
-kind: ConfigMap 
 apiVersion: v1 
+kind: ConfigMap 
 metadata:
   name: springapp-configmap
 data:
@@ -23,7 +23,7 @@ spec:
         app: springboot
     spec:
       containers:
-      - image: dockerhandson/spring-boot-mongo
+      - image: 9966522863/spring-boot-mongo
         name: springboot
         ports:
         - containerPort: 8080  
