@@ -30,8 +30,6 @@ services:
     - MONGO_INITDB_ROOT_PASSWORD=devdb123
     volumes:
       - mongodb:/data/db
-    networks:
-    - customoverlay
     
 volumes:
   mongodb:
