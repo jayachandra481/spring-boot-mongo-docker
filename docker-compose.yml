@@ -12,7 +12,7 @@ services:
     depends_on:
       - mongo
     networks:
-    - customoverlay  
+    - flipkartbridges
     deploy:  # This will be considered only in docker swarm.
       replicas: 2
       update_config:
