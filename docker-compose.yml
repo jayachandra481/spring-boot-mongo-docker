@@ -34,7 +34,7 @@ services:
     - customoverlay
     
 volumes:
-  mongodb
+  mongodb:
     
 networks:
   default:
